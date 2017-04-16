@@ -6,4 +6,8 @@ class Hello extends React.Component {
     }
 }
 
+Hello.defaultProps = {
+    name: 'John Doe'
+};
+
 export default Hello;

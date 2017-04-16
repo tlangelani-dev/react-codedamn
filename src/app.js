@@ -4,6 +4,9 @@ import ReactDOM from 'react-dom';
 import Hello from './components/Hello';
 
 ReactDOM.render(
-    <Hello name="Tlangelani Mboweni" />,
+    <section>
+        <Hello name="Tlangelani Mboweni" />
+        <Hello />
+    </section>,
     document.getElementById('app')
 );
